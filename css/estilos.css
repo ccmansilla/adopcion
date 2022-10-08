@@ -1,0 +1,25 @@
+h1 {
+    text-align: center;
+    color:#e77c24;
+    text-shadow: 1px 1px 1px rgb(27, 24, 54);
+}
+
+.img {
+    background-color: black;
+    height: 60vh;
+}
+
+.img img {
+    display: block;
+    height: 100%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.texto {
+    height: 20vh;
+    background-color: #249ae7;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+}
