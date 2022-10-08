@@ -19,7 +19,7 @@ h1 {
 .texto {
     height: 20vh;
     background-color: #249ae7;
-    color: white;
+    color: rgb(27, 24, 54);
     font-weight: bolder;
     text-align: center;
 }

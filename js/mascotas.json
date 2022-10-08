@@ -1,12 +1,12 @@
 [
     {
-        "nombre" : "codito",
+        "nombre" : "Codito",
         "tipo" : "gato",
         "edad" : "2 años",
         "img" : "https://gatoyfelino.com/wp-content/uploads/2020/12/black-cat-375866_1280-700x468.jpg"
     },
     {
-        "nombre" : "titan",
+        "nombre" : "Titan",
         "tipo" : "perro",
         "edad" : "3 años",
         "img" : "https://www.onlydogs.info/wp-content/uploads/2016/02/Labrador-Retreiver-1.jpg"
