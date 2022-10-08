@@ -1,6 +1,6 @@
 let contenedor = document.querySelector('.carousel-inner');
 async function load() {
-    const response = await fetch('http://127.0.0.1:5500/js/mascotas.json');
+    const response = await fetch('./js/mascotas.json');
     const mascotas = await response.json();
 
     let primero = 'active';
