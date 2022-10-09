@@ -15,6 +15,7 @@ let contenedor = document.querySelector('.carousel-inner');
 async function load() {
     const response = await fetch('./js/mascotas.json');
     const mascotas = await response.json();
+    console.log(typeof mascotas);
 
     let primero = 'active';
     mascotas.forEach(objeto => {
