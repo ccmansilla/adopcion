@@ -2,7 +2,7 @@ class Animal{
     constructor(objeto){
         this.tipo = objeto.tipo;
         this.nombre = objeto.nombre;
-        this.edad = objeto.edad;
+        this.edad = objeto.edad_aprox;
         this.img = objeto.img;
     }
 
