@@ -11,7 +11,7 @@ class Animal{
     }
 }
 
-let contenedor = document.querySelector('.carousel-inner');
+let contenedor = document.querySelector('.single-item');
 async function load() {
     const response = await fetch('./js/mascotas.json');
     const mascotas = await response.json();
@@ -22,7 +22,7 @@ async function load() {
         mascota = new Animal(objeto);
         let img = mascota.img;
         let texto = mascota.info();
-        let plantilla = `<div class="carousel-item ${primero}">
+        let plantilla = `<div>
                             <div class='img'>
                                 <img src="${img}" alt="...">
                             </div>
@@ -31,6 +31,8 @@ async function load() {
         contenedor.innerHTML += plantilla;
         primero = '';
     });
+    $('.single-item').slick();
 }
 load();
+
 
