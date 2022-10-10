@@ -6,7 +6,7 @@ h1 {
 
 .img {
     background-color: black;
-    height: 60vh;
+    height: 50vh;
 }
 
 .img img {
@@ -17,7 +17,7 @@ h1 {
 }
 
 .texto {
-    height: 20vh;
+    height: 15vh;
     background-color: #249ae7;
     color: rgb(27, 24, 54);
     font-weight: bolder;
