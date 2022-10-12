@@ -1,5 +1,7 @@
 h1 {
     text-align: center;
+    background-color: #136aa3;
+    padding: 30px;
     color:#e77c24;
     text-shadow: 1px 1px 1px rgb(27, 24, 54);
 }
