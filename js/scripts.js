@@ -22,16 +22,20 @@ async function load() {
         mascota = new Animal(objeto);
         let img = mascota.img;
         let texto = mascota.info();
-        let plantilla = `<div>
+        let plantilla = `<div class='card'>
                             <div class='img'>
-                                <img src="${img}" alt="...">
+                                <img src='${img}' alt='foto mascota'>
                             </div>
-                            <div class="texto">${texto}</div>
+                            <div class='texto'>${texto}</div>
                         </div>`;
         contenedor.innerHTML += plantilla;
         primero = '';
     });
-    $('.single-item').slick();
+    $('.single-item').slick({
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 3
+    });
 }
 load();
 
